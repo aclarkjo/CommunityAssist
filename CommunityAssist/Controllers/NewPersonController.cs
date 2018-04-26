@@ -23,7 +23,7 @@ namespace CommunityAssist.Controllers
 
         [ValidateAntiForgeryToken]
 
-        public ActionResult Index([Bind(Include ="LastName,FirstName, Email, Phone, PlainPassword" +
+        public ActionResult Index([Bind(Include ="LastName,FirstName, Email, Phone, PlainPassword," +
 
             "Apartment,Street, City, State, Zipcode")]NewPerson r)
 
